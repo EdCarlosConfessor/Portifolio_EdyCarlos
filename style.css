@@ -1,0 +1,80 @@
+
+/* ============================   CONFIGURAÇÕES GERAIS DO DOCUMENTO   ================================================================== */
+*{     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;             /* para ficar tudo dentro dda mesma borda*/
+    font-family: 'Poppins', sans-serif; /* Fontes instalada do Google fontes la no HTML*/
+}
+
+body {
+    background-color: black;     /* Cor total do body*/
+    height: 100vh;                 /* Altura padrão para tomar todo o espaço da tela*/
+}
+
+.interface {
+    max-width: 1280px;   /* Largura maxima de 1280px */
+    margin: auto;        /*  Centralizada na tela */
+}  /* ========================================  FIM DESSE BLOCO CONFIGURAÇÕES GERAIS  =================================================== */
+
+
+
+/* ==============================   INICIO DA ESTIZAÇÃO DO CABEÇALHO  ( header ) ========================================================= */
+
+.logo a img  {       /* Chamei a logo para estização */
+    width: 300px;    /* Largura desejada */
+    height: auto;    /* Altura automática para manter a proporção */
+}
+
+header {               /* Chamei o header para estização*/
+    padding: 40px 4%;  /* O 40px e dado uma distancia em cima e baixo e os 4% e da laterais direita e esquerda */
+}
+
+header > .interface {                /* Chamei a interface para estização */
+    display: flex;                   /* Posiciona os itens um do lado do outro */
+    align-items: center;             /* Alinha os itens ao centro */
+    justify-content: space-between;  /* Deixa os itens o maximo possivel um longe do outro */
+}
+
+header a {                     /* Chamei a tag "a" que contem os links: Inicio,Especialidades, Sobre e Projetos para estilizar */
+    color: rgb(87, 86, 86);  /* Deixamos com a car branca */
+    text-decoration: none;     /* Remove a linha de baixo das palavras */
+    display: inline-block;     /* Aqui converto para ter as propriedades inline e também, block para poder receber os efitos no: "header a:hover" */
+    
+}
+
+.menu-desktop ul li a:hover {  /* Aqui configuro efeito quando passar o mouse sobre os links: Inicio,Especialidades, Sobre e Projetos vai acontecer algum efeito configurado AQUI */
+    color: white;            /* ao Passar o mouse mudara para branco */
+    transform: scale(1.30);    /* Ao passar o mouse dara um zoom na escala (tamanho) de 1.05 mas terei de ir no "header a" e acrescentar a propriedade "block" */
+    transition: 1.5s;          /* Damos o tempo em 2 segundos para acontecer a transição */
+}
+
+header nav ul {
+    list-style-type: none;     /* Remove as bolinhas na frente de cada nome da lista */
+
+}
+
+header nav ul li {         /* Chamei a tag "li" que contem os links: Inicio,Especialidades, Sobre e Projetos para estilizar  */
+    display: inline-block; /* deixa um item do lado do outro */
+    padding: 0 40px ;      /* Damos um espaçamento entre os itens. 0 em cima e baixo, esquera e direita 40px */
+}
+
+header .btn-contato button {     /* Chamamos o Botton (Botão) para estilização*/
+    padding: 10px 40px;          /* Aqui já damos uma altura de 10px e também um comprimento de 40px*/
+    font-size: 19px;             /* Alteramos o tamanho da fonte*/
+    font-weight:600;             /* Dei um pesso para fonte ou seja, deixei estilo negritada*/
+    background-color: #00ff08; /* Dei uma cor interna do botão */
+    border: 0;                   /* Removi as bordas do botão */
+    border-radius: 30px;         /* Aredonda os 4 cantos por igual*/
+    cursor: pointer;             /* Cria uma mãozinha ao passar o mouse */
+
+}
+
+header .btn-contato button:hover{          /* Aqui configuro efeito quando passar o mouse sobre o botão contato do cabeçalho */
+    box-shadow: 0px 0px 80px #7eb67e;    /* Cor da sombra que aparecera por trás do botão contato */
+    transform: scale(1.30);                /* Ao passar o mouse dara um zoom na escala (tamanho) de 1.05 mas terei de ir no "header a" e acrescentar a propriedade "block" */
+    transition: 1.5s;                      /* Damos o tempo em 2 segundos para acontecer a transição */
+}
+/*  ==============================================  FIM DO BLOCO CABEÇALHO  ( header ) ===================================================  */
+
+
