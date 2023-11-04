@@ -162,24 +162,21 @@ section .topo-do-site .flex {   /* não está fazendo nada */
     gap: 90px;
 }
 
-.topo-do-site  h1 {      /* Chamamos o "h1" para estilização*/
+.topo-do-site  h1 {     /* Chamamos o "h1" para estilização*/
     color: white;     /* Cor da fonte */
     font-size: 45px;    /* Tamanho da fonte */
     line-height: 50px;  /* espaçamento entre o texto h1*/
-    margin: 40px 0;
+    margin: 40px 0;     /* Demos uma margen 0*/
 }
 
 .topo-do-site .txt-topo-site h1 span {
     color: #00ff08;            /* Cor da fonte */
     font-size: 60px;             /* Tamanho da fonte */
-    display: inline-block;        /* Aqui converto para ter as propriedades inline e também, block para poder receber os efitos do "@keyframes" */
+    display: inline-block;       /* Aqui converto para ter as propriedades inline e também, block para poder receber os efitos do "@keyframes" */
     overflow: hidden;
     white-space: nowrap;
-    
     animation: digitar 3s steps(10, end) 3s, apagar 3s steps(10, end) 4s, digitar 3s steps(10, end) 7s infinite alternate;
 }
-
-
 
 
 .topo-do-site .txt-topo-site p {        /* Chamamos o "p" para estilização*/
