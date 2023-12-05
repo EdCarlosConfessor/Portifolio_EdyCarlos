@@ -1,11 +1,22 @@
-# Portifolio_Original
- Este será o Portifolio Orinal com formulario
+# Portifolio_EdyCarlos
 
- Obs: Para criar um link HTML mais facil, uso escrever " link:css ou o nome que quero.css e dou enter ele e criado automaticamente.
- Para entrar esse arquivo direto e so segurar o Ctrl e clicar no nome ai o sitema diz que ele não exite, damos Ok e ele sera
- criado no menu lateral e já aberto para uso altomaticamente.
+"Olá a todos,
 
- Bem, entre ontem e hoje dia 04/11/2023, finalizei a primeira pagina deixando tudo prontinho para ir para proxima etapa.
- Amnhã domigo dia 05, darei inicio novamente.
+Sou o Edy Carlos e é com grande alegria que recebo todos vocês em meu portfólio no GitHub.
+Agradeço imensamente por dedicarem um tempo para explorar meus projetos.
 
- ----------------------------------------------------------------------------------------------------------------------------
+O apoio e incentivo que recebo têm sido fundamentais em minha jornada como desenvolvedor tanto pl/sql, sql, python e agora, nessa nova incursão no mundo web.
+Agradeço a Deus em primeiro lugar, minha família e amigos por esse suporte constante.
+
+Este portifolio é o meu 3º projeto com a linguagem Web, e estou entusiasmado por compartilhar esse espaço em constante evolução. Há mais funcionalidades a serem adicionadas a esse projeto, mas já está aberto para receber feedbacks valiosos.
+
+Agradeço desde já por sua visita e espero que encontrem algo interessante por aqui. Não deixem de acessar o resultado no link abaixo.
+
+Obrigado,
+Edy Carlos
+
+[Veja o resultado aqui](https://edcarlosconfessor.github.io/Portifolio_EdyCarlos/)
+
+ou
+
+https://edcarlosconfessor.github.io/Portifolio_EdyCarlos
